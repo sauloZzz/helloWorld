@@ -1,22 +1,24 @@
-# 👋 Hello World in Java
+# 👋 Hello World Interactive Program (Java)
 
-This is my very first Java project — a simple program that prints the classic **"Hello World"** message to the console.  
-It marks the beginning of my journey as a backend developer ☕🚀
+This project is a simple **Java console application** that not only prints the traditional “Hello World” message but also interacts with the user by asking for their name, age, and gender.  
+It’s a small step, but a meaningful one in learning how to handle **user input** and basic console output in Java ☕.
 
 ---
 
 ## 🧠 About the Project
 
-The **Hello World** program is often the first step in learning any programming language.  
-It helps confirm that your environment is set up correctly and that you can compile and run code successfully.
+The goal of this project is to understand:
+- How to display messages on the console
+- How to receive input from the user using `Scanner`
+- How to combine and display that information dynamically
 
 ---
 
 ## 🧩 Technologies Used
 
-- **Java 17** (or your installed version)
+- **Java 17** (or later)
 - **JDK** (Java Development Kit)
-- **IDE**: IntelliJ IDEA / VS Code / Eclipse (optional)
+- **IDE**: IntelliJ IDEA / VS Code / Eclipse / NetBeans (any works)
 
 ---
 
@@ -24,27 +26,16 @@ It helps confirm that your environment is set up correctly and that you can comp
 
 1. Clone this repository:
    ```bash
-
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
-}
-
-
+   git clone https://github.com/sauloZzz/hello-world-java.git
 📚 What I Learned
 
-How to install and configure the Java Development Kit (JDK)
+How to use the Scanner class to read user input
 
-How to compile and run a Java program using the terminal or an IDE
+How to display formatted text on the console
 
-Understanding the structure of a basic Java application:
+How to handle integer and string input together
 
-The class declaration
-
-The main() method
-
-The System.out.println() function
+The importance of consuming the newline character after reading an integer with scanner.nextInt()
 
 💬 Author
 
@@ -53,3 +44,4 @@ Saúl Pérez
 🌐 GitHub Profile
 
 ⭐ If you like this project, give it a star and follow my journey as I grow as a Java developer!
+
